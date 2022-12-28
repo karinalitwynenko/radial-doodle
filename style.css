@@ -1,0 +1,46 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8vh 0;
+    box-sizing: border-box;
+    background: #f1efee;
+}
+
+nav {
+    font-family: "Arial Black", Gadget, sans-serif;
+    position: fixed;
+    padding: 0 2%;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    overflow: hidden;
+    height: 8vh;
+    background: #661394;
+}
+
+#app-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+    height: 100%;
+    float: left;
+    font-size: 24px;
+    color: white;
+}
+
+canvas {
+    -webkit-box-shadow: 1px 1px 8px 0px rgba(173, 173, 173, 1);
+    -moz-box-shadow: 1px 1px 8px 0px rgba(173, 173, 173, 1);
+    box-shadow: 1px 1px 8px 0px rgba(173, 173, 173, 1);
+    border-radius: 4px;
+}
